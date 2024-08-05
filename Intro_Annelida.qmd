@@ -25,7 +25,7 @@ format:
 
 ## Filo Annelida{.smaller}
 
--   A sinapomorfia que define o grupo dos Annelia em relação aos filos anteriores é o **metamerismo** (segmentação corporal), que foi o primeiro passo para a evolução das articulações dos artrópodos.
+-   A sinapomorfia que define o grupo dos Annelida em relação aos filos anteriores é o **metamerismo** (segmentação corporal), que foi o primeiro passo para a evolução das articulações dos artrópodos.
 
 -   Devido ao sucesso evolutivo do **metamerismo**, Annelida tem hoje cerca de 16000 espécies (deve chegar a 100 mil) que invadiram todos os habitats onde existe algum grau de umidade.
 
