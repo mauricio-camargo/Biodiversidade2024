@@ -8,7 +8,7 @@
 <link href="Cladistica_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="Cladistica_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="Cladistica_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.5.54">
+  <meta name="generator" content="quarto-1.5.56">
 
   <meta name="author" content="Disciplina: Biodiversidade de Invertebrados Marinhos - IO-FURG">
   <meta name="dcterms.date" content="2024-08-05">
@@ -348,10 +348,6 @@ Disciplina: Biodiversidade de Invertebrados Marinhos - IO-FURG
 
   <p class="date">2024-08-05</p>
 </section>
-<section class="slide level2">
-
-<!------- ############### sd ############### -------->
-</section>
 <section id="taxonomia-classificação-e-sistemática" class="slide level2 smaller">
 <h2>Taxonomia, classificação e sistemática</h2>
 <aside class="notes">
@@ -375,32 +371,29 @@ Disciplina: Biodiversidade de Invertebrados Marinhos - IO-FURG
           display:block!important;
       }</style></aside>
 <p><br></p>
-<div class="fragment" data-fragment-index="2">
 <blockquote>
 <p>“A <strong>taxonomia</strong> descreve a biodiversidade, a <strong>classificação</strong> procura algum tipo de ordem e a <strong>sistemática</strong> apresenta um sistema geral de referência (Amorim, 2005).”<sup>1</sup></p>
 </blockquote>
-</div>
 <p><br></p>
-<div class="fragment" data-fragment-index="3">
+<div class="fragment" data-fragment-index="1">
 <ul>
 <li>A <strong>Taxonomia</strong> descreve, nomeia e classifica os seres vivos.<br>
 </li>
 </ul>
 </div>
-<div class="fragment" data-fragment-index="4">
-<p>É um trabalho minucioso, mas gratificante (pdf dissertação).</p>
+<div class="fragment" data-fragment-index="2">
+<ul>
+<li>É um trabalho minucioso, mas gratificante (pdf dissertação).</li>
+</ul>
 </div>
 <!------- ############### sd ############### -------->
-<aside><ol class="aside-footnotes"><li id="fn1"><div class="fragment" data-fragment-index="1">
-<p>AMORIM, D. S. Fundamentos de sistemática filogenética. Ribeirão Preto: Holos, 2005.</p>
-</div>
-</li></ol></aside></section>
-<section id="poliqueta-na-lupa" class="slide level2">
-<h2>Poliqueta na lupa</h2>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>AMORIM, D. S. Fundamentos de sistemática filogenética. Ribeirão Preto: Holos, 2005. :::</p></li></ol></aside></section>
+<section id="o-trabalho-do-taxonomista-é-na-lupa-e-no-microscópio" class="slide level2">
+<h2>O trabalho do taxonomista é na lupa e no microscópio</h2>
 
 <img data-src="images/Lumbrineridae2.png" class="r-stretch"></section>
-<section id="poliqueta---pranchas" class="slide level2">
-<h2>Poliqueta - pranchas</h2>
+<section id="o-trabalho-de-identificação-de-espécies-envolve-exame-detalhado-das-estruturas." class="slide level2">
+<h2>O trabalho de identificação de espécies envolve exame detalhado das estruturas.</h2>
 
 <!------- ############### sd ############### -------->
 <img data-src="images/Lumbrineridae1.png" class="r-stretch"></section>
@@ -530,16 +523,12 @@ Até hoje - Idade Contemporânea</p>
 <li>Em <em>Historia animalium</em> descreveu 500 espécies.</li>
 </ul>
 <div class="columns">
-<div class="column" style="width:33%;">
+<div class="column" style="width:20%;">
 <p><img data-src="images/Aristoteles.png"></p>
-</div><div class="column" style="width:33%;">
-<div class="fragment">
+</div><div class="column" style="width:32%;">
 <p><img data-src="images/Arist_Classif1.png"></p>
-</div>
-</div><div class="column" style="width:34%;">
-<div class="fragment">
+</div><div class="column" style="width:48%;">
 <p><img data-src="images/Arist_Classif2.png"></p>
-</div>
 </div></div>
 </section>
 <section id="section-1" class="slide level2" data-background-color="#6b5a59">
@@ -1038,80 +1027,42 @@ O correto é:</p>
       });
     </script>
     
-
     <script>
-
       // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-
       // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-
       // slide changes (different for each slide format).
-
       (function () {
-
         // dispatch for htmlwidgets
-
         function fireSlideEnter() {
-
           const event = window.document.createEvent("Event");
-
           event.initEvent("slideenter", true, true);
-
           window.document.dispatchEvent(event);
-
         }
-
-    
 
         function fireSlideChanged(previousSlide, currentSlide) {
-
           fireSlideEnter();
 
-    
-
           // dispatch for shiny
-
           if (window.jQuery) {
-
             if (previousSlide) {
-
               window.jQuery(previousSlide).trigger("hidden");
-
             }
-
             if (currentSlide) {
-
               window.jQuery(currentSlide).trigger("shown");
-
             }
-
           }
-
         }
-
-    
 
         // hookup for slidy
-
         if (window.w3c_slidy) {
-
           window.w3c_slidy.add_observer(function (slide_num) {
-
             // slide_num starts at position 1
-
             fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-
           });
-
         }
 
-    
-
       })();
-
     </script>
-
-    
 
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {

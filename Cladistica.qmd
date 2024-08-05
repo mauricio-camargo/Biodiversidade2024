@@ -24,7 +24,6 @@ format:
 
 ---
 
-<!------- ############### sd ############### -------->
 ## Taxonomia, classificação  e sistemática {.smaller}
 
 :::{.notes}
@@ -36,32 +35,30 @@ format:
 
 <br>  
 
-::: {.fragment fragment-index=2}
 > "A **taxonomia** descreve a biodiversidade, a **classificação** procura algum tipo de ordem e a **sistemática** apresenta um sistema geral de referência (Amorim, 2005)."[^1]
-:::  
+
 
 <br>
 
-::: {.fragment fragment-index=3}
+::: {.fragment fragment-index=1}
 -   A **Taxonomia** descreve, nomeia e classifica os seres vivos.  
 :::
 
-::: {.fragment fragment-index=4}
-É um trabalho minucioso, mas gratificante (pdf dissertação).
+::: {.fragment fragment-index=2}
+-  É um trabalho minucioso, mas gratificante (pdf dissertação).
 :::
 
 [^1]: 
-::: {.fragment fragment-index=1}
 AMORIM, D. S. Fundamentos de sistemática filogenética. Ribeirão Preto: Holos, 2005.
 :::
 
 <!------- ############### sd ############### -------->
 
-## Poliqueta na lupa
+## O trabalho do taxonomista é na lupa e no microscópio
 ![](images/Lumbrineridae2.png)
 
 
-## Poliqueta - pranchas
+## O trabalho de identificação de espécies envolve exame detalhado das estruturas.
 
 ![](images/Lumbrineridae1.png)
 
@@ -161,18 +158,14 @@ Criança de 8 anos.
 - Em *Historia animalium* descreveu 500 espécies. 
 
 :::: {.columns}
-::: {.column width="33%"}
+::: {.column width="20%"}
 ![](images/Aristoteles.png)
 :::
-::: {.column width="33%"}
-:::{.fragment}
+::: {.column width="32%"}
 ![](images/Arist_Classif1.png)
 :::
-:::
-::: {.column width="34%"}
-:::{.fragment}
+::: {.column width="48%"}
 ![](images/Arist_Classif2.png)
-:::
 :::
 ::::
 
