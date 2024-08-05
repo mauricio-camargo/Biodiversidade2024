@@ -4,7 +4,7 @@ format:
     theme: [serif, MeuCustom.scss]
     menu: false
     controls: false #Não é menu. ToDo.
-    auto-slide: 3000
+    auto-slide: 5000
     loop: true
 ---
 

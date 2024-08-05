@@ -8,10 +8,10 @@
 <link href="Bryozoa_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="Bryozoa_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="Bryozoa_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.340">
+  <meta name="generator" content="quarto-1.5.54">
 
   <meta name="author" content="Disciplina: Biodiversidade de Invertebrados Marinhos - IO-FURG">
-  <meta name="dcterms.date" content="2023-06-12">
+  <meta name="dcterms.date" content="2024-08-05">
   <title>Introdução aos Bryozoa (Lophophorata)</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -31,7 +31,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="Bryozoa_files/libs/revealjs/dist/theme/quarto.css" id="theme">
+  <link rel="stylesheet" href="Bryozoa_files/libs/revealjs/dist/theme/quarto.css">
   <link rel="stylesheet" href="assets/syntax-highlight.css">
   <link rel="stylesheet" href="assets/sydney.css">
   <link rel="stylesheet" href="assets/custom.css">
@@ -163,7 +163,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -345,7 +346,7 @@ Disciplina: Biodiversidade de Invertebrados Marinhos - IO-FURG
     </div>
 </div>
 
-  <p class="date">2023-06-12</p>
+  <p class="date">2024-08-05</p>
 </section>
 <section id="lophophorata-dentro-dos-metazoa" class="slide level2 smaller scrollable">
 <h2>Lophophorata dentro dos Metazoa</h2>
@@ -370,7 +371,7 @@ A sinapomorfia do grupo é a presença de lofóforo.</p>
 <li>Os tentáculos possuem cílios que provocam uma corrente de água que leva partículas nutritivas para a boca e participam das trocas gasosas.</li>
 </ul>
 
-<img data-src="images/Lofoforo.jpg" class="r-stretch quarto-figure-center"></section>
+<img data-src="images/Lofoforo.jpg" class="quarto-figure quarto-figure-&quot;center r-stretch"></section>
 <section id="principais-filos-de-lophophorata" class="slide level2">
 <h2>Principais filos de Lophophorata</h2>
 
@@ -381,8 +382,11 @@ A sinapomorfia do grupo é a presença de lofóforo.</p>
 <img data-src="images/BryozoaColonia.png" class="r-stretch"></section>
 <section id="filo-bryozoa---diversidade" class="slide level2">
 <h2>Filo Bryozoa - Diversidade</h2>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[[1,1,1], [1,1,1]]">
+<div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
 <p><img data-src="images/Bryoz1.png"></p>
 </div>
@@ -393,7 +397,7 @@ A sinapomorfia do grupo é a presença de lofóforo.</p>
 <p><img data-src="images/Bryoz3.png"></p>
 </div>
 </div>
-<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-row">
 <div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
 <p><img data-src="images/Bryoz4.png"></p>
 </div>
@@ -422,7 +426,7 @@ A sinapomorfia do grupo é a presença de lofóforo.</p>
 <h2>Reprodução</h2>
 <p>São hermafroditas, que se reproduzem de maneira sexual e assexuada, com fertilização interna e desenvolvimento indireto.</p>
 
-<img data-src="images/BryozRepro.png" class="r-stretch quarto-figure-center"></section>
+<img data-src="images/BryozRepro.png" class="quarto-figure quarto-figure-&quot;center r-stretch"></section>
 <section id="sistemas-de-bryozoa-digestivo" class="slide level2 smaller">
 <h2>Sistemas de Bryozoa digestivo</h2>
 <ul>
@@ -431,8 +435,10 @@ A sinapomorfia do grupo é a presença de lofóforo.</p>
 <li><p>Nutrição Os briozoários são suspensivos, se alimentando das partículas em suspensão na água e de zooplâncton.</p></li>
 <li><p>O lofóforo é responsável por redirecionar os fluxos de água para a boca do animal. O muco secretado pelos tentáculos dos lofóforos contribui e facilita a alimentação, capturando os alimentos e os movem para a boca.</p></li>
 </ul>
+<div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
+</div>
 </div>
 </section>
     </div>
@@ -462,7 +468,6 @@ A sinapomorfia do grupo é a presença de lofóforo.</p>
       Reveal.initialize({
 'controlsAuto': false,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -680,18 +685,7 @@ A sinapomorfia do grupo é a presença de lofóforo.</p>
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -723,11 +717,50 @@ A sinapomorfia do grupo é a presença de lofóforo.</p>
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
-      function tippyHover(el, contentFn) {
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -737,8 +770,17 @@ A sinapomorfia do grupo é a presença de lofóforo.</p>
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -752,7 +794,11 @@ A sinapomorfia do grupo é a presença de lofóforo.</p>
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {
