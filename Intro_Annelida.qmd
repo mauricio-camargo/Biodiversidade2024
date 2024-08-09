@@ -2,7 +2,7 @@
 title: "Introdução aos Annelida"
 institute: "Prof. Maurício Garcia de Camargo"
 author: "Disciplina: Biodiversidade de Invertebrados Marinhos - IO-FURG"
-date: 2024-08-05
+date: 2024-08-09
 #date: "`r Sys.Date()`" #Para funcionar tem que ter o `r Sys.Date()` em qualquer lugar do corpo (atualmente está no footer do primeiro slide)
 lang: pt-br
 title-slide-attributes:
@@ -25,11 +25,11 @@ format:
 
 ## Filo Annelida{.smaller}
 
--   A sinapomorfia que define o grupo dos Annelida em relação aos filos anteriores é o **metamerismo** (segmentação corporal), que foi o primeiro passo para a evolução das articulações dos artrópodos.
+-   A **sinapomorfia** que define o grupo dos Annelida em relação aos filos anteriores é o **metamerismo** (segmentação corporal), que foi o primeiro passo para a evolução das articulações dos artrópodos.
 
 -   Devido ao sucesso evolutivo do **metamerismo**, Annelida tem hoje cerca de 16000 espécies (deve chegar a 100 mil) que invadiram todos os habitats onde existe algum grau de umidade.
 
--   Outra novidade evolutiva que os Anellida trouxeram foi o celoma verdadeiro.
+-   Outra novidade evolutiva que os Anellida trouxeram foi o **celoma verdadeiro**.
 
 ::: callout-note
 Para entender a importância do **metamerismo**, temos que saber o que é um organismo **celomado**.
@@ -37,7 +37,7 @@ Para entender a importância do **metamerismo**, temos que saber o que é um org
 
 ::: footer
 ```{r}
-# Fake: serve só para que a data apareça no primeiro slide
+# Fake: serve só para que a data apareça no primeiro slide. PArou de funcionar
 ss=Sys.Date()
 ```
 :::
@@ -53,28 +53,29 @@ Celomados
 ## Celoma
 
 -   Celoma é uma cavidade corporal preenchida pelo fluído celômico.\
--   Celoma atinge o maior estágio de desenvolvimento nos Annelida, por isso é chamado de verdadeiro.
--   Para ser um celoma verdadeiro, precisa ter origem mesodérmica e estar encerrado entre a ectoderme e a endoderme. Vermes inferiores, como platelmintos e Nematoda não possuem celoma verdadeiro.
+-   Celoma atinge o maior estágio de desenvolvimento nos Annelida, por isso é **chamado de verdadeiro**.
+-   Para ser um celoma verdadeiro, precisa ter origem **mesodérmica** e estar encerrado entre a ectoderme e a endoderme. Vermes inferiores, como platelmintos e Nematoda não possuem celoma verdadeiro.
 
-## 
+## Celoma verdadeiro e pseudo-celoma.
 
 ![](images/Celoma2.png)
 
-## 
+## Oligoqueta: estrutura interna com celoma verdadeiro.
 
 ![](images/Oligo_estrutura.png)
 
+
 ## Celoma
 
- -   O celoma atravessa longitudinalmente o indivíduo e é dividido nos anéis pelos septos.
- -   Celoma e as divisões dos anéis por septos fornecem uma espécies de galeria onde o fluído celômico pode circular por ação dos músculos, servindo como um **esqueleto hidrostático**, que permite a movimentação mais rápida e eficiente.
+ -   O celoma atravessa longitudinalmente o indivíduo e é dividido nos anéis pelos **septos**.
+ -   Celoma e as divisões dos anéis por septos fornecem uma espécie de galeria onde o fluído celômico pode circular por ação dos músculos, servindo como um **esqueleto hidrostático**, que permite a movimentação mais rápida e eficiente.
  -   Outras funções secundárias do celoma: movimentação independente da digestão, pois o celoma separa o tubo digestivo e parede corporal; atua como órgão excretor.
 
 ## Esqueleto hidrostático em ação
 
 ![](images/Movimentacao2.png)
 
-## Esqueleto hidrostático em ação
+## Esqueleto hidrostático em ação: a) poliquetas; b) oliquetas; c) hirudinea. 
 
 ![](images/Movimentacao1.png)
 
