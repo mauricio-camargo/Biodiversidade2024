@@ -64,6 +64,11 @@ Celomados
 
 ![](images/Oligo_estrutura.png)
 
+## Oligoqueta: estrutura interna com celoma verdadeiro.
+
+![](images/Metameria.png)
+
+
 
 ## Celoma
 
@@ -75,14 +80,14 @@ Celomados
 
 ![](images/Movimentacao2.png)
 
-## Esqueleto hidrostático em ação: a) poliquetas; b) oliquetas; c) hirudinea. 
+## Locomoção usando o esqueleto hidrostático: a) poliquetas; b) oliquetas; c) hirudinea. 
 
 ![](images/Movimentacao1.png)
 
 ## Metameria e metâmeros
 
--   O aparecimento da metameria e do esqueleto hidrostático dotou os anelídeos um tipo único de locomoção, permitindo que novos ambientes fossem explorados, e assim apareceram os organismos cavadores.
--   A metameria também diminui o impacto de lesões, pois se alguns metâmeros estão danificados, outros podem suprir a falta.
+-   O aparecimento da **metameria** e do **esqueleto hidrostático** dotou os anelídeos um tipo único de locomoção, permitindo que novos ambientes fossem explorados, e assim apareceram os organismos **cavadores**.
+-   A metameria também diminui o impacto de lesões, pois se alguns metâmeros estão danificados, outros podem suprir a falta (alguns poliquetas possuem capacidade de regeneração).
 
 
 ## Efeitos da metamerização
@@ -92,15 +97,12 @@ Celomados
     - Alguns segmentos desenvolvem estruturas especiais, como para alimentação e respiração (brânquias) ou natação (escamas)
     - Alguns segmentos podem se fundir.
 
-##
-
-![](images/Metameria.png)
 
 ## Classificação dos Annelida {.smaller}
 
 | **Classe**      | Clitelo[^1] | Parapódios[^2] | Cerdas[^3] | Ambiente                               | Espécies |
 |-----------------|-------------|----------------|------------|----------------------------------------|----------|
-| **Polychaeta**  | Não         | Sim            | Muitas     | Quase 100% marinho                     | 12000    |
+| **Polychaeta**  | Não         | Sim            | Muitas     | Quase 100% marinho                     | 16000    |
 | **Oligochaeta** | Sim         | Não            | Poucas     | Quase todos terrestres ou de água doce | 3500     |
 | **Hirudinea**   | Sim         | Não            | Não        | Todos de água doce                     | 500      |
 
@@ -121,7 +123,7 @@ Morfologia e fisiologia dos Annelida
 
 ## Clitelo {.smaller}
 
-Clitelo está presente em Oligochaeta e Hirudinea, representando por um anel glandular facilmente reconhecida na região anterior do corpo, que auxilia na reprodução produzindo muco para facilitar a cópula.  
+Clitelo está presente em Oligochaeta e Hirudinea (chamos de Clitellata), representando por um anel glandular facilmente reconhecido na região anterior do corpo, que auxilia na reprodução produzindo muco para facilitar a cópula.  
 
 ![](images/Clitelo.png)
 
