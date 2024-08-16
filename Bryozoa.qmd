@@ -6,7 +6,7 @@
 title: "Introdução aos Bryozoa (Lophophorata)"
 institute: "Prof. Maurício Garcia de Camargo"
 author: "Disciplina: Biodiversidade de Invertebrados Marinhos - IO-FURG"
-date: 2024-08-05
+date: 2024-08-16
 #date: "`r Sys.Date()`" #Para funcionar tem que ter o `r Sys.Date()` em qualquer lugar do corpo (atualmente está no footer do primeiro slide)
 lang: pt-br
 title-slide-attributes:
@@ -40,9 +40,11 @@ O clado Lophophorata inclui os filos:
 -   Brachiopoda
 -   Phoronida
 
-Muitos são coloniais e às vezes parecem plantas ou corais. 
-São bentônicos e filtradores.  
-A sinapomorfia do grupo é a presença de lofóforo.
+-  Muitos são coloniais 
+-  Às vezes parecem plantas ou corais 
+-  São bentônicos e filtradores.  
+
+A sinapomorfia do grupo é a presença de **lofóforo**.
 
 
 ## Lofóforo{.smaller}
@@ -58,7 +60,7 @@ A sinapomorfia do grupo é a presença de lofóforo.
 ![](images/Lopho3filos.png)
 
 
-## Filo Bryozoa colonial
+## Filo Bryozoa (colonial)
 
 ![](images/BryozoaColonia.png)
 
@@ -86,12 +88,11 @@ A sinapomorfia do grupo é a presença de lofóforo.
 
 <br>
 
--   São animais invertebrados bentônicos, suspensívoros e coloniais, que se fixam em substratos duros, como pedras e conchas, a partir da larva **cifonauta**.
+-   Briozoários se fixam em substratos duros, como pedras e conchas, a partir da larva **cifonauta**.
 -   Cerca de 8 mil espécies.
 -   Colônias de briozoários servem de abrigo e são fonte de alimento para muitos organismos.
 -   Briozoários são importantes bioincrustadores, atacando estruturas de concreto e madeira.
--   Retração no exoesqueleto (lofóforo retráctil)
--   Os briozoários são compostos principalmente de duas partes: o cistídeo ou teca e o zoóide, também conhecido como polipídeo.
+-  São filtradores não seletivos (fito + zooplâncton) e podem fixar carbono atmosférico.
 
 
 ## Reprodução
@@ -112,3 +113,12 @@ Os briozoários são suspensivos, se alimentando das partículas em suspensão n
 
 -   O lofóforo é responsável por redirecionar os fluxos de água para a boca do animal. O muco secretado pelos tentáculos dos lofóforos  contribui e facilita a alimentação, capturando os alimentos e os movem para a boca.
 
+## Bryozoa da praia do Cassino
+
+*Membraniporopsis tubigera*
+
+![](images/BryozCass1.png){fig-align="center}
+
+
+
+![](images/BryozCass2.png){fig-align="center}
