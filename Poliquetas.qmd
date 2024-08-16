@@ -132,7 +132,7 @@ A sinapomorfia dos poliquetas são os `parapódios`, de posteriormente foi perdi
 -   Enorme sucesso em ambientes marinhos bênticos. Poucos pelágicos.
 -   Quase sempre euhalinos, poucos oligohalinos e raros tolerantes a
     água doce;
--   10 a 12 mil espécies, do entrenatés ao abissal, de mm a 3 metros
+-   10 a 12 mil espécies, do entremarés ao abissal, de mm a 3 metros
     (*Eunice*).
 -   Muitas espécies vivem em "fumarolas" (Hydrothermal vents ou chaminés
     hidrotermais) com temperaturas maiores que 65^o^C.
@@ -453,7 +453,7 @@ brotamento, criando clones não funcionais, que carregam os gametas.
 <br>
 
 `Epítocos` são os novos indivíduos clones (não funcionais) e `átocos`
-são os indivíduos originaism que se regenarão.
+são os indivíduos originais que se irão regenerar.
 
 Os epítocos irão enxamear a coluna d'água, liberando os gametas que
 serão fecundados cruzadamente e morrendo em seguida.
